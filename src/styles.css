@@ -1,0 +1,98 @@
+body {
+  font-family: "Roboto", sans-serif;
+  max-width: 850px;
+  padding-top: 20px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  border-style: none;
+  background-color: #ffffff;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+button:hover {
+  color: #9476cf;
+}
+
+.btn.btn-primary {
+  padding: 8px 24px;
+  background: #9476cf;
+  border: none;
+  color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  cursor: pointer;
+  background: #b192ee;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main {
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+  margin: 20px 0;
+  max-width: 630px;
+  border-radius: 8px;
+  padding: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: gray;
+  padding-top: 10px;
+}
+
+.heading-s {
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.description {
+  padding-top: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: gray;
+}
+
+.row.head {
+  padding-top: 60px;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 32px;
+  padding-top: 12px;
+}
+
+.row.other-days {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 40px;
+}
+
+.degree {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #f85e91;
+}
