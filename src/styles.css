@@ -18,6 +18,10 @@ button {
 button:hover {
   color: #9476cf;
 }
+a.code {
+  color: #007bff;
+  text-decoration: none;
+}
 
 .btn.btn-primary {
   padding: 8px 24px;
@@ -95,4 +99,12 @@ button:hover {
   font-size: 18px;
   font-weight: 500;
   color: #f85e91;
+}
+
+.link-code {
+  font-size: 80%;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-left: 110px;
+  display: block;
 }
