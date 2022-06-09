@@ -4,16 +4,6 @@ body {
   background-color: #ffffff;
 }
 
-button {
-  border-style: none;
-  background-color: #ffffff;
-  font-weight: 600;
-  font-size: 32px;
-}
-
-button:hover {
-  color: #9476cf;
-}
 a.code {
   color: #007bff;
   text-decoration: none;
@@ -30,6 +20,7 @@ a.code {
   border-radius: 8px;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
 }
+
 .btn.btn-primary {
   padding: 8px 24px;
   background: #e94113;
@@ -40,17 +31,6 @@ a.code {
 .btn.btn-primary:hover {
   cursor: pointer;
   background: #cc360d;
-}
-
-.btn.btn-success {
-  padding: 8px 24px;
-  background: #363650;
-  border: none;
-  color: #ffffff;
-}
-.btn.btn-success:hover {
-  cursor: pointer;
-  background: #252557;
 }
 
 .heading {
@@ -108,6 +88,7 @@ a.code {
   top: -24px;
   font-weight: 600;
   font-size: 16px;
+  text-decoration: none;
 }
 .units .active {
   color: black;

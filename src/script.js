@@ -73,7 +73,7 @@ function calculateCoordinates(position) {
   axios.get(url).then(showWeather);
 }
 
-function yourCoordinates() {
+function yourCoordinates(event) {
   navigator.geolocation.getCurrentPosition(calculateCoordinates);
 }
 
