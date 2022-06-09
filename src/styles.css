@@ -33,6 +33,10 @@ a.code {
   background: #cc360d;
 }
 
+.row.head {
+  padding-top: 60px;
+}
+
 .heading {
   font-size: 18px;
   font-weight: 400;
@@ -63,10 +67,6 @@ a.code {
   text-align: center;
 }
 
-.row.head {
-  padding-top: 60px;
-}
-
 .row.head .col-sm-3 {
   padding-right: 0;
   padding-left: 0;
@@ -88,7 +88,6 @@ a.code {
   top: -24px;
   font-weight: 600;
   font-size: 16px;
-  text-decoration: none;
 }
 .units .active {
   color: black;
@@ -97,6 +96,10 @@ a.code {
 }
 
 .units .active:hover {
+  text-decoration: none;
+}
+
+.units .not-active {
   text-decoration: none;
 }
 
