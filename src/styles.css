@@ -25,14 +25,25 @@ a.code {
 
 .btn.btn-primary {
   padding: 8px 24px;
-  background: #9476cf;
+  background: #ec6e4c;
   border: none;
   color: #ffffff;
 }
 
 .btn.btn-primary:hover {
   cursor: pointer;
-  background: #b192ee;
+  background: #e94113;
+}
+
+.btn.btn-success {
+  padding: 8px 24px;
+  background: #363650;
+  border: none;
+  color: #ffffff;
+}
+.btn.btn-success:hover {
+  cursor: pointer;
+  background: #252557;
 }
 
 .container {
@@ -96,8 +107,24 @@ a.code {
 
 .temperature {
   font-weight: 600;
-  font-size: 32px;
+  font-size: 48px;
   padding-top: 12px;
+}
+
+.units {
+  position: relative;
+  top: -24px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.units .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.units .active:hover {
+  text-decoration: none;
 }
 
 .row.other-days {
@@ -110,7 +137,7 @@ a.code {
   padding-top: 10px;
   font-size: 18px;
   font-weight: 500;
-  color: #f85e91;
+  color: #e94113;
 }
 
 .link-code {
