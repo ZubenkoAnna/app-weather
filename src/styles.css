@@ -65,16 +65,28 @@ a.code {
   color: gray;
 }
 
+.float-left {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
 .description {
-  padding-top: 16px;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 0;
   color: gray;
+  text-align: center;
 }
 
 .row.head {
   padding-top: 60px;
+}
+
+.row.head .col-sm-3 {
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .city {

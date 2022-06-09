@@ -40,6 +40,12 @@ function showWeather(response) {
   currentWindSpeed.innerHTML = ` ${speed} km/h`;
   let currentDescription = document.querySelector("#description");
   currentDescription.innerHTML = ` ${response.data.weather[0].main}`;
+  let currentIcon = document.querySelector("#icon");
+  currentIcon.setAttribute(
+    "src",
+    `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  );
+  currentIcon.setAttribute("alt", response.data.weather[0].description);
 }
 
 function inputCity(city) {
