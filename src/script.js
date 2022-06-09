@@ -70,5 +70,7 @@ function yourCoordinates() {
   navigator.geolocation.getCurrentPosition(calculateCoordinates);
 }
 
+inputCity("New York");
+
 let currentButtonClick = document.querySelector("#current-button");
 currentButtonClick.addEventListener("click", yourCoordinates);
