@@ -1,11 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
-  max-width: 850px;
   padding-top: 20px;
-  box-sizing: border-box;
   background-color: #ffffff;
-  display: block;
-  margin: 0 auto;
 }
 
 button {
@@ -23,6 +19,17 @@ a.code {
   text-decoration: none;
 }
 
+.main-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.main {
+  padding: 40px;
+  border: 1px solid #bebebe;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
+}
 .btn.btn-primary {
   padding: 8px 24px;
   background: #e94113;
@@ -44,20 +51,6 @@ a.code {
 .btn.btn-success:hover {
   cursor: pointer;
   background: #252557;
-}
-
-.container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.main {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 50px;
-  border: 1px solid #bebebe;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 16%), 0 0 0 1px rgb(0 0 0 / 8%);
 }
 
 .heading {
@@ -143,6 +136,4 @@ a.code {
   font-size: 80%;
   font-weight: 400;
   margin-top: 10px;
-  margin-left: 110px;
-  display: block;
 }
