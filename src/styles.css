@@ -107,21 +107,21 @@ a.code {
   text-decoration: none;
 }
 
-.row.other-days {
-  text-align: center;
-  font-size: 16px;
-  padding-top: 40px;
-}
-
-.degree {
-  padding-top: 10px;
-  font-size: 18px;
-  font-weight: 500;
-  color: #e94113;
-}
-
 .link-code {
   font-size: 80%;
   font-weight: 400;
   margin-top: 10px;
+}
+
+.weather-forcast {
+  margin-top: 20px;
+  text-align: center;
+  color: #000;
+}
+
+.weather-forcast-temperature {
+  font-size: 14px;
+}
+.weather-forcast-temperature-min {
+  opacity: 0.5;
 }
