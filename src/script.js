@@ -130,6 +130,10 @@ function calculateCoordinates(position) {
 function yourCoordinates(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(calculateCoordinates);
+  let temperatureElement = document.querySelector("#temperature");
+  fahrenheitLink.classList.remove("active");
+  celsiusLink.classList.add("active");
+  temperatureElement.innerHTML = Math.round(celciuseTemperature);
 }
 
 function showFahrenheitTemperature(event) {
