@@ -110,6 +110,10 @@ function newCity(event) {
   event.preventDefault();
   let city = document.querySelector("#city-input").value;
   inputCity(city);
+  let temperatureElement = document.querySelector("#temperature");
+  fahrenheitLink.classList.remove("active");
+  celsiusLink.classList.add("active");
+  temperatureElement.innerHTML = Math.round(celciuseTemperature);
 }
 
 let searchForm = document.querySelector("#search-form");
@@ -124,6 +128,7 @@ function calculateCoordinates(position) {
 }
 
 function yourCoordinates(event) {
+  event.preventDefault();
   navigator.geolocation.getCurrentPosition(calculateCoordinates);
 }
 
@@ -137,9 +142,10 @@ function showFahrenheitTemperature(event) {
 }
 
 function showCelsiusTemperature(event) {
+  event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
-  celsiusLink.classList.add("active");
   fahrenheitLink.classList.remove("active");
+  celsiusLink.classList.add("active");
   temperatureElement.innerHTML = Math.round(celciuseTemperature);
 }
 
